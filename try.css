@@ -152,6 +152,13 @@ height: 17em;
     background-size: cover;
 }
 
+#portion5{
+  font-family: 'Varela', sans-serif;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.67),rgba(0, 0, 0, 0.67)),url(img/20.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 
 #portion6{
   font-family: 'Varela', sans-serif;
