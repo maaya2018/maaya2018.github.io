@@ -8,6 +8,8 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
  <meta name="viewport" content="width=device-width, initial-scale=0.7">
 
@@ -31,13 +33,17 @@
 
 <header>
   <nav>
-    <img class="" src="">
+    <div class="topnav" id="tt">
     <a href="#home" class="active">Home</a>
     <a href="#portion1">Major Events</a>
-    <a href="Sponsors.html">Previous Sponsors</a>
+    <a href="Sponsors.html" target="_blank">Previous Sponsors</a>
     <a href="EventsList_Maaya_2018.pdf"download>Events List</a>
-    <a href="gallery.html">Gallery</a>
+    <a href="gallery.html" target="_blank">Gallery</a>
     <a href="#portion6">Contact Us</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
   </nav>
 </header>
 
@@ -50,16 +56,16 @@
             </video>
         
     </div>
-  <h2><img src="img/Maaya1.png" style="width: 7em;"></h2>
  
+ <h2><img src="img/Maaya.png" style="width: 5em;" data-aos="fade-down" data-aos-duration="1200"></h2>
   </div>
 
-<div id="portion0" class="info" data-aos= "fade-down" data-aos-duration="200">
+<div id="portion0" class="info" data-aos= "fade-down" data-aos-duration="500">
 
 </div>
 
-<div id="portion1" class="info" >
-  <div  data-aos="fade-right" data-aos-duration="1000">
+<div id="portion1" class="info" data-aos="fade-left" data-aos-duration="800" >
+  <div  data-aos="fade-right" data-aos-duration="1500">
   <h1>Battle Of Bands</h1>
   <p>A symphonic contest between bands that either let you drift into a trance or get you up on your feet with your headbanging. All in all, a string of super energetic performances that leaves you screaming “Encore, encore! ” </p>
   <div class="button">
@@ -72,8 +78,8 @@
 </div>
 
  
-<div id="portion2" class="info">
-  <div  data-aos="fade-right" data-aos-duration="1000">
+<div id="portion2" class="info" data-aos="fade-left" data-aos-duration="800">
+  <div  data-aos="fade-right" data-aos-duration="1500">
   <h1>Fashion Show</h1>
   <p> A magnificent expression of art in style that must portray “Battle of the times”, leaving the audience mesmerized well back in the past and entranced in the future, all at once. It is the walk that leaves the crowd in awe of their creativity.</p>
   <div class="button">
@@ -85,8 +91,8 @@
 </div>
 </div>
 
-<div id="portion3" class="info">
-  <div  data-aos="fade-right" data-aos-duration="1000">
+<div id="portion3" class="info" data-aos="fade-left" data-aos-duration="800">
+  <div  data-aos="fade-right" data-aos-duration="1500">
   <h1>Group Dance</h1>
   <p> A captivating performance of synchronized feet that gets the audience grooving to the beat. Be it any genre of dance, it is sure to get you moonwalking in its charm!</p>
   <div class="button">
@@ -99,8 +105,8 @@
 </div>
 
 
-<div id="portion4" class="info">
-  <div data-aos="fade-right" data-aos-duration="1000">
+<div id="portion4" class="info" data-aos="fade-left" data-aos-duration="800">
+  <div data-aos="fade-right" data-aos-duration="1500">
   <h1>Acapella / Western Acoustics</h1>
   <p>Sung without an instrumental accompaniment, this event brings out the Pentatonix in you. An event that is sure to get your feet tapping and head swaying, leaving you with a golly perspective of a familiar tune.</p>
   <div class="button">
@@ -112,8 +118,8 @@
   </div>  
  </div>
 
-<div id="portion5" class="info">
-  <div data-aos="fade-right" data-aos-duration="1000">
+<div id="portion5" class="info" data-aos="fade-left" data-aos-duration="800">
+  <div data-aos="fade-right" data-aos-duration="1500">
   <h1>Concert</h1>
   <p>The only place to lose yourself to the rhythm of the beat and dance away to glory. Ending the fest with a bang, the concert is sure to leave you spellbound and wanting more!</p>
   <div class="button">
@@ -127,7 +133,7 @@
 
 
 
-<div id="portion6" class="info" >
+<div id="portion6" class="info" data-aos="fade-left" data-aos-duration="800">
   <h1>Contact us</h1>
 
     <div class="button1">
@@ -153,5 +159,16 @@
   (Video by - Marlon, Edited by - Nitin Sriram)</p>
   
 </footer>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("tt");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 </body>
 </html>
