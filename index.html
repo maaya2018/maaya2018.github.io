@@ -40,7 +40,7 @@
     <a href="EventsList_Maaya_2018.pdf"download>Events List</a>
     <a href="gallery.html" target="_blank">Gallery</a>
     <a href="#portion6">Contact Us</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <a href="javascript:void(0);" class="icon" onclick="call()">
     <i class="fa fa-bars"></i>
   </a>
   </div>
@@ -51,7 +51,7 @@
     
     <div class="vd">
             <video id="vdid" preload="auto" autoplay="true" loop="loop" muted="muted">
-                <source src="img/30s2.mp4" type="video/mp4">
+                <source src="img/30s2.mp4" type="video/mp4" style="overflow-x: hidden;">
                 video not possible
             </video>
         
@@ -161,7 +161,7 @@
 </footer>
 
 <script>
-function myFunction() {
+function call() {
     var x = document.getElementById("tt");
     if (x.className === "topnav") {
         x.className += " responsive";
