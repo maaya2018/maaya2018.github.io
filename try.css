@@ -4,6 +4,7 @@ body,html{
   font-family:sans-serif;
   font-size: 15px;
   height: 100%;
+
 }
 
 .topnav {
@@ -24,7 +25,7 @@ body,html{
   padding: 2em 3em .5em;
   
   background-color: #000000;
-  -webkit-transition: all .3s ease-in;
+  
 }
 
 .topnav a:hover {
@@ -52,7 +53,7 @@ body,html{
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
-    position: absolute;
+    position: fixed;
     right: 1;
     top: 0;
   }
@@ -63,21 +64,23 @@ body,html{
   }
 }
 
-/*
-header nav {
+
+/*header nav {
   text-align: left;
   background: rgb(0, 0, 0);
   color: white;
   font-size: 1em;
+  z-index: 1000;
   position: fixed;
   width: 100%;
+
 }
 header nav a {
   color: inherit;
   text-decoration: none;
   display: inline-block;
   padding: 2em 3em .5em;
-  
+
   background-color: #000000;
   -webkit-transition: all .3s ease-in;
 }
@@ -87,7 +90,6 @@ header nav a {
 header nav a:hover {
   background-color: #313139;
 }
-*/
 
 .vd{
     position:fixed;
@@ -97,14 +99,14 @@ header nav a:hover {
     top: 0;
     left: 0;
 }
-
+*/
 #vdid{
     position:;
     top: 0;
     left: 0;
     min-height: 100%;
     min-width: 100%;
-    overflow-x: hidden;
+ 
 }
 
 video { 
@@ -122,8 +124,6 @@ video {
   -webkit-transition: 1s opacity;
   transition: 1s opacity;
 }
-
-
 
 .active {
   background: rgba(255,255,255,0.3);
@@ -278,3 +278,27 @@ footer.ft {
   padding-bottom: 1%;
 }
 
+nav img {
+  z-index: 1000;
+  height: 2.5em;
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  transition: all 0.5s linear;
+}
+
+.move {
+  top: -60px;
+}
+
+nav span {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  font-weight: bold;
+  transition: all 0.5s ease-in;
+}
+
+.movetext {
+  top: -30px;
+}
