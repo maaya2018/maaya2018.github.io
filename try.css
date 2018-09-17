@@ -306,7 +306,7 @@ nav span {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  border-radius: 50%;
+  border-radius: 200px;
 }
 
 .fa-facebook{
@@ -324,6 +324,7 @@ nav span {
   background-color: #F06261;
   color: white;
   transition: all 0.5s;
+
 }
 
 .fa-instagram:hover{
