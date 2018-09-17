@@ -266,7 +266,7 @@ overflow-x: hidden;
 }
 footer.ft {
   color: #384c64;
-  font-size: .75em;
+
   text-align: center;
   background-color: #242424; 
   padding: 3em 20%;
@@ -297,4 +297,36 @@ nav span {
 
 .movetext {
   top: -30px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 3em;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook{
+  background-color: #3B5998;
+  color: white;
+  transition: all 0.5s;
+}
+
+.fa-facebook:hover {
+  background-color: white;
+  color: #3B5998;
+}
+
+.fa-instagram{
+  background-color: #F06261;
+  color: white;
+  transition: all 0.5s;
+}
+
+.fa-instagram:hover{
+  background-color: white ;
+  color: #ffff00;
 }
