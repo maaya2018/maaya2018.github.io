@@ -331,3 +331,75 @@ nav span {
   background-color: white ;
   color: #ffff00;
 }
+
+
+.collapsible {
+  display: inline-block;
+  font-size: .8em;
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #3f618b;
+  padding: .6em 1.1em;
+  margin-bottom: 2em;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: all 0.3s ease-in-out;
+}
+
+.active, .collapsible:hover {
+  color: #FFFAF0;
+  background: #3f618b;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: ;
+}
+
+
+.button2 {
+  text-align: left; 
+}
+.button2 a {
+  display: inline-block;
+  font-size: .8em;
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid rgba(60, 244, 16, 0.81);
+  padding: .6em 1.1em;
+  margin-bottom: 1em;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: all 0.3s ease-in-out;
+}
+.button2 a:hover {
+  color: #FFFAF0;
+  background: rgba(60, 244, 16, 0.81);
+}
+
+
+.button3 {
+  text-align: left; 
+}
+.button3 a {
+  display: inline-block;
+  font-size: .8em;
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #3f618b;
+  padding: .6em 1.1em;
+  margin-bottom: 2em;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: all 0.3s ease-in-out;
+}
+.button3 a:hover {
+  color: #FFFAF0;
+  background: #3f618b;
+}
