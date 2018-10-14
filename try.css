@@ -333,7 +333,7 @@ nav span {
 }
 
 
-.collapsible {
+.collap {
   display: inline-block;
   font-size: .8em;
   font-family: sans-serif;
@@ -347,7 +347,7 @@ nav span {
   transition: all 0.3s ease-in-out;
 }
 
-.active, .collapsible:hover {
+.active, .collap:hover {
   color: #FFFAF0;
   background: #3f618b;
 }

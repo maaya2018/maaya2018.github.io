@@ -2,10 +2,16 @@
 <html>
 <head>
   <title>Maaya 2018</title>
+
   <link rel="stylesheet" type="text/css" href="try.css">
+
   <script src="jquery.js"></script>
+
   <script type="text/javascript" src="try.js"></script>
+
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -69,7 +75,7 @@
   <h1>Battle Of Bands</h1>
   <p>A symphonic contest between bands that either let you drift into a trance or get you up on your feet with your headbanging. All in all, a string of super energetic performances that leaves you screaming “Encore, encore! ” </p>
     <div class="button">
-    <button class="collapsible">Details</button>
+    <button class="collap">Details</button>
     <div class="content">
 
     <div class="button2">
@@ -123,7 +129,7 @@ event <br>
   <h1>Fashion Show</h1>
   <p> A magnificent expression of art in style that must portray “Battle of the times”, leaving the audience mesmerized well back in the past and entranced in the future, all at once. It is the walk that leaves the crowd in awe of their creativity.</p>
 <div class="button">
-    <button class="collapsible">Details</button>
+    <button class="collap">Details</button>
     <div class="content">
 
     <div class="button2">
@@ -162,7 +168,7 @@ event <br>
   <p> A captivating performance of synchronized feet that gets the audience grooving to the beat. Be it any genre of dance, it is sure to get you moonwalking in its charm!</p>
    <div class="button">
 
-    <button class="collapsible">Details</button>
+    <button class="collap">Details</button>
     <div class="content">
 
     <div class="button2">
@@ -211,7 +217,7 @@ event <br>
   <h1>Acapella / Western Acoustics</h1>
   <p>Sung without an instrumental accompaniment, this event brings out the Pentatonix in you. An event that is sure to get your feet tapping and head swaying, leaving you with a golly perspective of a familiar tune.</p>
  <div class="button">
-    <button class="collapsible">Details</button>
+    <button class="collap">Details</button>
     <div class="content">
 
     <div class="button2">
@@ -288,8 +294,20 @@ arrangement and creativity of the piece/medley  <br>  <br></p>
   
 </footer>
 
+
 <script>
-var coll = document.getElementsByClassName("collapsible");
+function call() {
+    var x = document.getElementById("tt");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<script>
+var coll = document.getElementsByClassName("collap");
 var i;
 
 for (i = 0; i < coll.length; i++) {
@@ -304,6 +322,7 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
+
 
 </body>
 </html>
